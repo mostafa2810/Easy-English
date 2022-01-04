@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Easy English</string>
+    <string name="physics_animations">Eltrend apps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">0:00</string>
+    <string name="t1">Placement Test</string>
+    <string name="t2">Easy English </string>
+    <string name="t3">Books</string>
+    <string name="t4">Audio Files</string>
+    <string name="t5">Videos</string>
+    <string name="t6">Exams</string>
+    <string name="t7">Contact us</string>
+    <string name="tup">It will be available in the next update within 24h</string>
+
+    <string name="tmm">How to use the app</string>
+
+
+    <string name="t_unit1">Unit 1</string>
+    <string name="t_unit2">Unit 2</string>
+    <string name="t_unit3">Unit 3</string>
+    <string name="t_unit4">Unit 4</string>
+    <string name="t_unit5">Unit 5</string>
+    <string name="t_unit6">Unit 6</string>
+    <string name="t_unit7">Unit 7</string>
+    <string name="t_unit8">Unit 8</string>
+    <string name="t_unit9">Unit 9</string>
+    <string name="t_unit10">Unit 10</string>
+    <string name="t_unit11">Unit 11</string>
+    <string name="t_unit12">Unit 12</string>
+    <string name="t_unit13">Unit 13</string>
+    <string name="t_unit14">Unit 14</string>
+    <string name="t_unit15">Unit 15</string>
+    <string name="t_unit16">Unit 16</string>
+
+    <string name="t_stu1">Student\'s Book</string>
+    <string name="t_work1">Work Book</string>
+
+
+    <string name="t_v1">Level 1 </string>
+    <string name="t_v2">Level 2 </string>
+    <string name="t_v3">Level 3 </string>
+    <string name="t_v4">Level 4 </string>
+    <string name="t_v5">Level 5 </string>
+    <string name="t_v6">Level 6 </string>
+    <string name="t_v7">Level 7 </string>
+    <string name="t_v8">Level 8 </string>
+    <string name="t_v9">Level 9 </string>
+    <string name="t_v10">Level 10 </string>
+    <string name="t_v11">Level 11 </string>
+    <string name="t_v12">Level 12 </string>
+    <string name="t_v13">Level 13 </string>
+    <string name="t_v14">Level 14 </string>
+    <string name="t_v15">Level 15 </string>
+    <string name="t_v16">Level 16 </string>
+    <string name="mmmm">More Apps</string>
+    <string name="determine">Determine your level</string>
+
+
+    <string name="restaurant">Easy English</string>
+
+      <string name="te" tools:ignore="Typos">
+
+</string>
+
+</resources>
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level6U7Audios">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 6 - Unit 7 - Page 44"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="RnkSh5S2FOo"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 6 - Unit 7 - Page 45"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="sI2r_hJOt4c"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 6 - Unit 7 - Page 46"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="XuX9oVEetd0"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 6 - Unit 7 - Page 47"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="cpETc6sXCKU"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 6 - Unit 7 - Page 48"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="v665NUHkJcY"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+
+    </LinearLayout>
+</ScrollView>

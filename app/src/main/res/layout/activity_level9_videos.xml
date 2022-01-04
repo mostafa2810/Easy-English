@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent"
+    tools:context=".Level9Videos">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="CRtyN0myYNA"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="wAxClKZBnLY"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="3wpHfSscPOA"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="fUopWY1k5KE"
+            app:autoPlay="false"
+            app:showFullScreenButton="false"
+            app:showYouTubeButton="false"/>
+
+    </LinearLayout>
+</ScrollView>

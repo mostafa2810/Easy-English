@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy English</string>
+    <string name="physics_animations">Eltrend apps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">0:00</string>
+    <string name="t1">اختبار تحديد المستوى</string>
+    <string name="t2">ايزي انجلش</string>
+    <string name="t3">الكتب</string>
+    <string name="t4">ملفات الصوت</string>
+    <string name="t5">الڤيديوهات</string>
+    <string name="t6">الامتحانات</string>
+    <string name="t7">تواصل معنا</string>
+    <string name="tmm">كيف تستخدم التطبيق</string>
+    <string name="tup">سيكون متاح في التحديث القادم خلال 24 ساعة</string>
+
+
+    <string name="t_unit1">الوحدة الاولى</string>
+    <string name="t_unit2">الوحدة الثانية</string>
+    <string name="t_unit3">الوحدة الثالثة</string>
+    <string name="t_unit4">الوحدة الرابعة</string>
+    <string name="t_unit5">الوحدة الخامسة</string>
+    <string name="t_unit6">الوحدة السادسة</string>
+    <string name="t_unit7">الوحدة السابعة</string>
+    <string name="t_unit8">الوحدة الثامنة</string>
+    <string name="t_unit9">الوحدة التاسعة</string>
+    <string name="t_unit10">الوحدة العاشرة</string>
+    <string name="t_unit11">الوحدة الحادية عشر</string>
+    <string name="t_unit12">الوحدة الثانية عشر</string>
+    <string name="t_unit13">الوحدة الثالثة عشر</string>
+    <string name="t_unit14">الوحدة الرابعة عشر</string>
+    <string name="t_unit15">الوحدة الخامسة عشر</string>
+    <string name="t_unit16">الوحدة السادسة عشر</string>
+
+    <string name="t_stu1">كتاب الطالب</string>
+    <string name="t_work1">كتاب التدريبات</string>
+
+
+    <string name="t_v1">المستوى الاول</string>
+    <string name="t_v2">المستوى الثاني</string>
+    <string name="t_v3">المستوى الثالث</string>
+    <string name="t_v4">المستوى الرابع</string>
+    <string name="t_v5">المستوى الخامس</string>
+    <string name="t_v6">المستوى السادس</string>
+    <string name="t_v7">المستوى السابع</string>
+    <string name="t_v8">المستوى الثامن</string>
+    <string name="t_v9">المستوى التاسع</string>
+    <string name="t_v10">المستوى العاشر</string>
+    <string name="t_v11">المستوى الحادي عشر</string>
+    <string name="t_v12">المستوى الثاني عشر</string>
+    <string name="t_v13">المستوى الثالث عشر</string>
+    <string name="t_v14">المستوى الرابع عشر</string>
+    <string name="t_v15">المستوى الخامس عشر</string>
+    <string name="t_v16">المستوى السادس عشر</string>
+    <string name="mmmm">تطبيقات اخرى</string>
+    <string name="determine">حدد مستواك</string>
+
+
+    <string name="restaurant">Easy English</string>
+
+    <string name="te">
+   Scroll down for more languages  اسحب للأسفل للغات اخرى
+  <br>\n</br>
+<br>\n</br>
+<br>\n</br>
+ This application is multilingual. If you wish to use the application in your own mother tongue, go to your (phone setting) and change the language into your mother tongue.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	If you don’t want to start from scratch (Level 1), go to (Placement Test) to take the test.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	You will get the results of your test in an email within 24 hours.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	Go to (Easy English) and choose (Determine your Level) to know which level you are in. You will find a table to help you choose your level.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	In each level there are four buttons
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    	Books
+<br>\n</br>
+<br>\n</br>
+    	Audio files
+<br>\n</br>
+<br>\n</br>
+    	Videos
+<br>\n</br>
+<br>\n</br>
+    	Exams
+<br>\n</br>
+<br>\n</br>
+    •	There are two books for each level.  A student’s book, and a workbook.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	Each book contains four units.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	Start each unit
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	When you see the Audio sign, go to (Audio files), play the audio, listen, and repeat. Do this 10 to 15 times to improve your pronunciation, and intonation.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	In some exercises you will be asked to listen and answer some questions to test your listening skills.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	The reading passages are accompanied by audio files (levels 1 – 4). You should listen as much as you need, and then start recording the passage to improve your speaking and reading skills.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	When you finish the unit, go to (Videos) and watch the unit video. It will help you to test your understanding of the whole unit.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	After you finish the four units, go to (Exams) and take the test.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    •	If you get satisfying results, go to the next level and follow the same steps.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    هذا التطبيق متعدد اللغات. إذا كنت ترغب في استخدام التطبيق بلغتك الأم ، فانتقل إلى (إعداد الهاتف) وقم بتغيير اللغة إلى لغتك الأم
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • إذا كنت لا تريد البدء من نقطة الصفر (المستوى 1) ، فانتقل إلى (اختبار تحديد المستوى) لإجراء الاختبار.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • ستحصل على نتائج الاختبار في رسالة بريد إلكتروني في غضون 24 ساعة.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • اذهب إلى (Easy English) واختر (تحديد مستواك) لمعرفة المستوى الذي أنت فيه. ستجد جدولاً لمساعدتك في اختيار مستواك.
+    • في كل مستوى هناك أربعة أزرار
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+     كتب
+<br>\n</br>
+<br>\n</br>
+     ملفات الصوت
+<br>\n</br>
+<br>\n</br>
+     مقاطع فيديو
+<br>\n</br>
+<br>\n</br>
+     الامتحانات
+<br>\n</br>
+<br>\n</br>
+    • يوجد كتابان لكل مستوى. كتاب الطالب وكتاب العمل.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • يحتوي كل كتاب على أربع وحدات.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • ابدأ كل وحدة
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • عندما ترى علامة الصوت ، انتقل إلى (ملفات الصوت) ، وقم بتشغيل الصوت ، والاستماع ، والتكرار. افعل هذا من 10 إلى 15 مرة لتحسين النطق والنغمة.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • في بعض التمارين سيُطلب منك الاستماع والإجابة على بعض الأسئلة لاختبار مهارات الاستماع لديك.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • مقاطع القراءة مصحوبة بملفات صوتية (المستويات 1 - 4). يجب أن تستمع بقدر ما تحتاج ، ثم تبدأ في تسجيل المقطع لتحسين مهارات التحدث والقراءة لديك.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • عند الانتهاء من الوحدة ، انتقل إلى (مقاطع الفيديو) وشاهد فيديو الوحدة. سيساعدك على اختبار فهمك للوحدة بأكملها.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • بعد الانتهاء من الوحدات الأربع ، انتقل إلى (Exams) وقم بإجراء الاختبار.
+<br>\n</br>
+<br>\n</br>
+<br>\n</br>
+    • إذا حصلت على نتائج مرضية ، انتقل إلى المستوى التالي واتبع نفس الخطوات.
+
+</string>
+
+</resources>
+
+
+

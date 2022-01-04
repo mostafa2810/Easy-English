@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".HowToUseTheApp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/how"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+
+        android:background="@drawable/bg_menu"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UnknownId">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="15dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="#183C6A"
+                    android:layout_marginTop="20dp"
+                    android:text="  Scroll down for more languages  اسحب للأسفل للغات اخرى
+\n
+\n
+\nThis application is multilingual. If you wish to use the application in your own mother tongue, go to your (phone setting) and change the language into your mother tongue.
+\n
+\n
+\n•If you don’t want to start from scratch (Level 1), go to (Placement Test) to take the test.
+\n
+\n
+\n•You will get the results of your test in an email within 24 hours.
+\n
+\n
+\n
+    •	Go to (Easy English) and choose (Determine your Level) to know which level you are in. You will find a table to help you choose your level.
+\n
+\n
+\n
+    •	In each level there are four buttons
+\n
+\n
+\n
+    	Books
+\n
+\n
+    	Audio files
+\n
+\n
+    	Videos
+\n
+\n
+    	Exams
+\n
+\n
+    •	There are two books for each level.  A student’s book, and a workbook.
+\n
+\n
+\n
+    •	Each book contains four units.
+\n
+\n
+\n
+    •	Start each unit
+\n
+\n
+\n
+    •	When you see the Audio sign, go to (Audio files), play the audio, listen, and repeat. Do this 10 to 15 times to improve your pronunciation, and intonation.
+\n
+\n
+\n
+    •	In some exercises you will be asked to listen and answer some questions to test your listening skills.
+\n
+\n
+\n
+    •	The reading passages are accompanied by audio files (levels 1 – 4). You should listen as much as you need, and then start recording the passage to improve your speaking and reading skills.
+\n
+\n
+\n
+    •	When you finish the unit, go to (Videos) and watch the unit video. It will help you to test your understanding of the whole unit.
+\n
+\n
+\n
+    •	After you finish the four units, go to (Exams) and take the test.
+\n
+\n
+\n
+    •	If you get satisfying results, go to the next level and follow the same steps.
+\n
+\n
+\n
+    هذا التطبيق متعدد اللغات. إذا كنت ترغب في استخدام التطبيق بلغتك الأم ، فانتقل إلى (إعداد الهاتف) وقم بتغيير اللغة إلى لغتك الأم
+\n
+\n
+\n
+    • إذا كنت لا تريد البدء من نقطة الصفر (المستوى 1) ، فانتقل إلى (اختبار تحديد المستوى) لإجراء الاختبار.
+\n
+\n
+\n
+    • ستحصل على نتائج الاختبار في رسالة بريد إلكتروني في غضون 24 ساعة.
+\n
+\n
+\n
+    • اذهب إلى (Easy English) واختر (تحديد مستواك) لمعرفة المستوى الذي أنت فيه. ستجد جدولاً لمساعدتك في اختيار مستواك.
+    • في كل مستوى هناك أربعة أزرار
+\n
+\n
+\n
+     كتب
+\n
+\n
+     ملفات الصوت
+\n
+\n
+     مقاطع فيديو
+\n
+\n
+     الامتحانات
+\n
+\n
+    • يوجد كتابان لكل مستوى. كتاب الطالب وكتاب العمل.
+\n
+\n
+\n
+    • يحتوي كل كتاب على أربع وحدات.
+\n
+\n
+\n
+    • ابدأ كل وحدة
+\n
+\n
+\n
+    • عندما ترى علامة الصوت ، انتقل إلى (ملفات الصوت) ، وقم بتشغيل الصوت ، والاستماع ، والتكرار. افعل هذا من 10 إلى 15 مرة لتحسين النطق والنغمة.
+\n
+\n
+\n
+    • في بعض التمارين سيُطلب منك الاستماع والإجابة على بعض الأسئلة لاختبار مهارات الاستماع لديك.
+\n
+\n
+\n
+    • مقاطع القراءة مصحوبة بملفات صوتية (المستويات 1 - 4). يجب أن تستمع بقدر ما تحتاج ، ثم تبدأ في تسجيل المقطع لتحسين مهارات التحدث والقراءة لديك.
+\n
+\n
+\n
+    • عند الانتهاء من الوحدة ، انتقل إلى (مقاطع الفيديو) وشاهد فيديو الوحدة. سيساعدك على اختبار فهمك للوحدة بأكملها.
+\n
+\n
+\n
+    • بعد الانتهاء من الوحدات الأربع ، انتقل إلى (Exams) وقم بإجراء الاختبار.
+\n
+\n
+\n
+    • إذا حصلت على نتائج مرضية ، انتقل إلى المستوى التالي واتبع نفس الخطوات.
+
+\n
+\n
+\n
+Deutsche Sprache / German
+
+\n
+\n
+Diese Anwendung ist mehrsprachig. Wenn Sie die Anwendung in Ihrer eigenen Muttersprache verwenden möchten, gehen Sie zu Ihrer (Telefoneinstellung) und ändern Sie die Sprache in Ihre Muttersprache
+ \n
+\n
+\n
+• Wenn Sie nicht bei Null anfangen möchten (Stufe 1), gehen Sie zu (Einstufungstest), um den Test durchzuführen.
+\n
+\n
+\n
+• Sie erhalten die Ergebnisse Ihres Tests innerhalb von 24 Stunden per E-Mail.
+\n
+\n
+\n
+• Gehen Sie zu (Easy English) und wählen Sie (Bestimmen Sie Ihr Level), um zu erfahren, in welchem ​​Level Sie sich befinden. Sie finden eine Tabelle, die Ihnen bei der Auswahl Ihres Levels hilft.
+\n
+\n
+\n
+• In jeder Ebene gibt es vier Tasten
+\n
+\n
+\n
+Ø Bücher
+\n
+\n
+Ø Audiodateien
+\n
+\n
+Ø Videos
+\n
+\n
+Ø Prüfungen
+\n
+\n
+\n
+• Für jedes Level gibt es zwei Bücher. Ein Schülerbuch und ein Arbeitsbuch.
+\n
+\n
+\n
+• Jedes Buch enthält vier Einheiten.
+\n
+\n
+\n
+• Starten Sie jede Einheit
+\n
+\n
+\n
+• Wenn Sie das Audio-Zeichen sehen, gehen Sie zu (Audiodateien), spielen Sie das Audio ab, hören Sie es zu und wiederholen Sie es. Tun Sie dies 10 bis 15 Mal, um Ihre Aussprache und Intonation zu verbessern.
+\n
+\n
+\n
+• In einigen Übungen werden Sie aufgefordert, zuzuhören und einige Fragen zu beantworten, um Ihre Hörfähigkeiten zu testen.
+\n
+\n
+\n
+• Die Lesepassagen werden von Audiodateien (Stufen 1 - 4) begleitet. Sie sollten so viel zuhören, wie Sie benötigen, und dann mit der Aufzeichnung der Passage beginnen, um Ihre Sprach- und Lesefähigkeiten zu verbessern.
+\n
+\n
+\n
+• Wenn Sie das Gerät fertiggestellt haben, gehen Sie zu (Videos) und sehen Sie sich das Gerätevideo an. Es wird Ihnen helfen, Ihr Verständnis der gesamten Einheit zu testen.
+\n
+\n
+\n
+• Wenn Sie die vier Einheiten beendet haben, gehen Sie zu (Prüfungen) und machen Sie den Test.
+\n
+\n
+\n
+• Wenn Sie zufriedenstellende Ergebnisse erzielen, fahren Sie mit der nächsten Stufe fort und führen Sie die gleichen Schritte aus.
+\n
+\n
+\n
+langue française / French
+\n
+\n
+\n
+Cette application est multilingue. Si vous souhaitez utiliser l'application dans votre propre langue maternelle, accédez à votre (réglage du téléphone) et changez la langue dans votre langue maternelle
+\n
+\n
+\n
+• Si vous ne voulez pas repartir de zéro (niveau 1), allez à (Test de classement) pour passer le test.
+\n
+\n
+\n
+• Vous recevrez les résultats de votre test dans un e-mail dans les 24 heures.
+\n
+\n
+\n
+• Allez dans (Anglais facile) et choisissez (Déterminez votre niveau) pour savoir dans quel niveau vous vous trouvez. Vous trouverez un tableau pour vous aider à choisir votre niveau.
+\n
+\n
+\n
+• Dans chaque niveau, il y a quatre boutons
+\n
+\n
+\n
+ Livres
+\n
+\n
+ Fichiers audio
+\n
+\n
+ Vidéos
+\n
+\n
+ Examens
+\n
+\n
+\n
+• Il y a deux livres pour chaque niveau. Un livre d'étudiant et un classeur.
+\n
+\n
+\n
+• Chaque livre contient quatre unités.
+\n
+\n
+\n
+• Démarrez chaque unité
+\n
+\n
+\n
+• Lorsque vous voyez le signe Audio, accédez à (Fichiers audio), lisez l'audio, écoutez et répétez. Faites-le 10 à 15 fois pour améliorer votre prononciation et votre intonation.
+\n
+\n
+\n
+• Dans certains exercices, on vous demandera d'écouter et de répondre à quelques questions pour tester vos capacités d'écoute.
+\n
+\n
+\n
+• Les passages de lecture sont accompagnés de fichiers audio (niveaux 1 - 4). Vous devez écouter autant que vous le souhaitez, puis commencer à enregistrer le passage pour améliorer vos compétences en expression orale et en lecture.
+\n
+\n
+\n
+• Une fois l'appareil terminé, accédez à (Vidéos) et regardez la vidéo de l'appareil. Cela vous aidera à tester votre compréhension de l'ensemble de l'unité.
+\n
+\n
+\n
+• Après avoir terminé les quatre unités, allez à (Examens) et passez le test.
+\n
+\n
+\n
+• Si vous obtenez des résultats satisfaisants, passez au niveau suivant et suivez les mêmes étapes.
+
+\n
+\n
+\n
+русский язык / Russian
+\n
+\n
+\n
+Это приложение многоязычно. Если вы хотите использовать приложение на своем родном языке, перейдите в (настройки телефона) и измените язык на свой родной язык.
+\n
+\n
+\n
+• Если вы не хотите начинать с нуля (Уровень 1), перейдите в (Тест на зачисление), чтобы пройти тест.
+\n
+\n
+\n
+• Вы получите результаты теста по электронной почте в течение 24 часов.
+\n
+\n
+\n
+• Перейдите в (Легкий английский) и выберите (Определить свой уровень), чтобы узнать, на каком вы уровне. Вы найдете таблицу, которая поможет вам выбрать
+свой уровень.
+\n
+\n
+\n
+• На каждом уровне есть четыре кнопки
+\n
+\n
+\n
+ Книги
+\n
+\n
+ Аудио файлы
+\n
+\n
+ Видео
+\n
+\n
+ Экзамены
+\n
+\n
+\n
+• Для каждого уровня есть две книги. Учебник и рабочая тетрадь.
+\n
+\n
+\n
+• Каждая книга состоит из четырех частей.
+\n
+\n
+\n
+• Запустите каждый блок
+\n
+\n
+\n
+• Когда вы видите значок «Аудио», перейдите в (Аудиофайлы), воспроизведите звук, послушайте и повторите. Сделайте это 10–15 раз, чтобы улучшить свое произношение и интонацию.
+\n
+\n
+\n
+• В некоторых упражнениях вас попросят послушать и ответить на некоторые вопросы, чтобы проверить свои навыки аудирования.
+\n
+\n
+\n
+• Отрывки для чтения сопровождаются аудиофайлами (уровни 1–4). Вы должны слушать столько, сколько вам нужно, а затем начать записывать отрывок, чтобы улучшить свои навыки разговорной речи и чтения.
+\n
+\n
+\n
+• Когда вы закончите работу над устройством, перейдите в (Видео) и посмотрите видео с модуля. Это поможет вам проверить ваше понимание устройства в целом.
+\n
+\n
+\n
+• После того, как вы закончите четыре раздела, перейдите в (Экзамены) и пройдите тест.
+\n
+\n
+\n
+• Если вы получили удовлетворительные результаты, перейдите на следующий уровень и выполните те же действия.
+\n
+\n
+\n
+हिन्दी भाषा / Hindi
+\n
+\n
+\n
+यह एप्लिकेशन बहुभाषी है। यदि आप अपनी स्वयं की मातृभाषा में एप्लिकेशन का उपयोग करना चाहते हैं, तो अपनी (फ़ोन सेटिंग) पर जाएं और अपनी मातृभाषा में भाषा बदलें
+\n
+\n
+\n
+• यदि आप स्क्रैच (लेवल 1) से शुरू नहीं करना चाहते हैं, तो टेस्ट लेने के लिए (प्लेसमेंट टेस्ट) पर जाएं।
+\n
+\n
+\n
+• आपको 24 घंटे के भीतर ईमेल में अपने परीक्षण के परिणाम मिलेंगे।
+\n
+\n
+\n
+• (आसान अंग्रेजी) पर जाएं और चुनें (अपना स्तर निर्धारित करें) यह जानने के लिए कि आप किस स्तर पर हैं। आपको अपना स्तर चुनने में मदद करने के लिए एक तालिका मिलेगी।
+\n
+\n
+\n
+• प्रत्येक स्तर में चार बटन होते हैं
+\n
+\n
+\n
+ किताबें
+\n
+\n
+ ऑडियो फाइलें
+\n
+\n
+ वीडियो
+\n
+\n
+ परीक्षा
+\n
+\n
+\n
+• प्रत्येक स्तर के लिए दो पुस्तकें हैं। एक छात्र की पुस्तक, और एक कार्यपुस्तिका।
+\n
+\n
+\n
+• प्रत्येक पुस्तक में चार इकाइयाँ होती हैं।
+\n
+\n
+\n
+• प्रत्येक इकाई शुरू करें
+\n
+\n
+\n
+• जब आप ऑडियो साइन देखते हैं, तो (ऑडियो फ़ाइलें) पर जाएं, ऑडियो चलाएं, सुनें और दोहराएं। अपने उच्चारण को बेहतर बनाने के लिए इसे 10 से 15 बार करें और अनुनाद करें।
+\n
+\n
+\n
+• कुछ अभ्यासों में आपको अपने सुनने के कौशल का परीक्षण करने के लिए कुछ सवालों को सुनने और जवाब देने के लिए कहा जाएगा।
+\n
+\n
+\n
+• पठन मार्ग ऑडियो फ़ाइलों (स्तर 1 - 4) के साथ हैं। आपको अपनी आवश्यकता के अनुसार अधिक से अधिक सुनना चाहिए, और फिर अपने बोलने और पढ़ने के कौशल को बेहतर बनाने के लिए मार्ग को रिकॉर्ड करना शुरू करना चाहिए।
+\n
+\n
+\n
+• जब आप यूनिट खत्म करते हैं, तो (वीडियो) पर जाएं और यूनिट वीडियो देखें। यह आपको पूरी इकाई की आपकी समझ का परीक्षण करने में मदद करेगा।
+\n
+\n
+\n
+• जब आप चार इकाइयाँ समाप्त कर लेते हैं, तो (परीक्षा) जाएँ और परीक्षा दें।
+\n
+\n
+\n
+• यदि आपको संतोषजनक परिणाम मिलते हैं, तो अगले स्तर पर जाएं और उसी चरणों का पालन करें।
+\n
+\n
+\n
+Wikang Filipino / Filipino
+\n
+\n
+\n
+Ang application na ito ay maraming wika. Kung nais mong gamitin ang application sa iyong sariling katutubong wika, pumunta sa iyong (setting ng telepono) at palitan ang wika sa iyong sariling wika
+\n
+\n
+\n
+• Kung hindi mo nais na magsimula mula sa simula (Antas 1), pumunta sa (Placed Test) upang kumuha ng pagsubok.
+\n
+\n
+\n
+• Makukuha mo ang mga resulta ng iyong pagsubok sa isang email sa loob ng 24 na oras.
+\n
+\n
+\n
+• Pumunta sa (Madaling Ingles) at pumili (Tukuyin ang iyong Antas) upang malaman kung aling antas ang iyong kinalalagyan. Makakakita ka ng isang talahanayan upang matulungan kang mapili ang iyong antas.
+\n
+\n
+\n
+• Sa bawat antas mayroong apat na mga pindutan
+\n
+\n
+\n
+ Mga libro
+\n
+\n
+ Mga audio file
+\n
+\n
+ Mga Video
+\n
+\n
+ Pagsusulit
+\n
+\n
+\n
+• Mayroong dalawang mga libro para sa bawat antas. Isang libro ng mag-aaral, at isang workbook.
+\n
+\n
+\n
+• Ang bawat libro ay naglalaman ng apat na yunit.
+\n
+\n
+\n
+• Simulan ang bawat yunit
+\n
+\n
+\n
+• Kapag nakita mo ang Audio sign, pumunta sa (Mga audio file), patugtugin ang audio, makinig, at ulitin. Gawin ito ng 10 hanggang 15 beses upang mapabuti ang iyong pagbigkas, at intonation.
+\n
+\n
+\n
+• Sa ilang pagsasanay ay hihilingin sa iyo na makinig at sagutin ang ilang mga katanungan upang subukan ang iyong mga kasanayan sa pakikinig.
+\n
+\n
+\n
+• Ang mga sipi sa pagbabasa ay sinamahan ng mga audio file (mga antas 1 - 4). Dapat kang makinig hangga't kailangan mo, at pagkatapos ay simulan ang pagtatala ng daanan upang mapabuti ang iyong mga kasanayan sa pagsasalita at pagbabasa.
+\n
+\n
+\n
+• Kapag natapos mo ang unit, pumunta sa (Mga Video) at panoorin ang video ng unit. Tutulungan ka nitong subukan ang iyong pag-unawa sa buong yunit.
+\n
+\n
+\n
+• Matapos mong matapos ang apat na mga yunit, pumunta sa (Mga Pagsusulit) at gawin ang pagsubok.
+\n
+\n
+\n
+• Kung nakakuha ka ng mga kasiya-siyang resulta, pumunta sa susunod na antas at sundin ang parehong mga hakbang.
+
+        \n
+\n
+\n
+bahasa Indonesia / Indonesian
+\n
+\n
+\n
+Aplikasi ini multibahasa. Jika Anda ingin menggunakan aplikasi dalam bahasa ibu Anda sendiri, buka (pengaturan telepon) dan ubah bahasa menjadi bahasa ibu Anda
+\n
+\n
+\n
+• Jika Anda tidak ingin memulai dari awal (Level 1), buka (Tes Penempatan) untuk mengikuti tes.
+\n
+\n
+\n
+• Anda akan mendapatkan hasil tes Anda melalui email dalam waktu 24 jam.
+\n
+\n
+\n
+• Masuk ke (Bahasa Inggris Mudah) dan pilih (Tentukan Level Anda) untuk mengetahui level mana Anda saat ini. Anda akan menemukan tabel untuk membantu Anda memilih level Anda.
+\n
+\n
+\n
+• Di setiap level ada empat tombol
+\n
+\n
+\n
+ Buku
+\n
+\n
+ File audio
+\n
+\n
+ Video
+\n
+\n
+ Ujian
+\n
+\n
+\n
+• Ada dua buku untuk setiap level. Buku siswa, dan buku kerja.
+\n
+\n
+\n
+• Setiap buku berisi empat unit.
+\n
+\n
+\n
+• Mulai setiap unit
+\n
+\n
+\n
+• Jika Anda melihat tanda Audio, pergi ke (File Audio), putar audio, dengarkan, dan ulangi. Lakukan ini 10 hingga 15 kali untuk meningkatkan pelafalan dan intonasi Anda.
+\n
+\n
+\n
+• Dalam beberapa latihan Anda akan diminta untuk mendengarkan dan menjawab beberapa pertanyaan untuk menguji keterampilan mendengarkan Anda.
+\n
+\n
+\n
+• Bagian bacaan disertai dengan file audio (level 1 - 4). Anda harus mendengarkan sebanyak yang Anda butuhkan, dan kemudian mulai merekam bagian itu untuk meningkatkan keterampilan berbicara dan membaca Anda.
+\n
+\n
+\n
+• Saat Anda menyelesaikan unit, buka (Video) dan tonton video unit. Ini akan membantu Anda menguji pemahaman Anda tentang keseluruhan unit.
+\n
+\n
+\n
+• Setelah Anda menyelesaikan empat unit, lanjutkan ke (Ujian) dan ikuti tesnya.
+\n
+\n
+\n
+• Jika Anda mendapatkan hasil yang memuaskan, lanjutkan ke level berikutnya dan ikuti langkah yang sama.
+        \n
+\n
+\n
+বাঙালি ভাষা  Bangali
+\n
+\n
+\n
+এই অ্যাপ্লিকেশনটি বহুভাষিক। আপনি যদি নিজের মাতৃভাষায় অ্যাপ্লিকেশনটি ব্যবহার করতে চান তবে আপনার (ফোন সেটিং) এ যান এবং আপনার মাতৃভাষায় ভাষা পরিবর্তন করুন
+\n
+\n
+\n
+You আপনি যদি স্ক্র্যাচ থেকে শুরু করতে না চান (স্তর 1), পরীক্ষা দেওয়ার জন্য (প্লেসমেন্ট টেস্ট) যান।
+24 আপনি 24 ঘন্টার মধ্যে একটি ইমেল আপনার পরীক্ষার ফলাফল পাবেন।
+\n
+\n
+\n
+Which (সহজ ইংরাজী) এ যান এবং আপনি কোন স্তরে রয়েছেন তা জানতে (আপনার স্তর নির্ধারণ করুন) চয়ন করুন your আপনার স্তরটি চয়ন করতে আপনাকে একটি সারণী পাবেন।
+\n
+\n
+\n
+Each প্রতিটি স্তরে চারটি বোতাম রয়েছে
+\n
+\n
+\n
+বই
+\n
+\n
+ অডিও ফাইল
+\n
+\n
+। ভিডিও
+\n
+\n
+। পরীক্ষা
+\n
+\n
+\n
+Each প্রতিটি স্তরের জন্য দুটি বই রয়েছে। একজন শিক্ষার্থীর বই, এবং একটি কার্য বই।
+\n
+\n
+\n
+• প্রতিটি বইয়ে চারটি ইউনিট রয়েছে।
+\n
+\n
+\n
+Each প্রতিটি ইউনিট শুরু করুন
+\n
+\n
+\n
+You আপনি যখন অডিও চিহ্নটি দেখেন, তখন (অডিও ফাইলগুলি) যান, অডিওটি প্লে করুন, শুনুন এবং পুনরাবৃত্তি করুন। আপনার উচ্চারণ এবং উদ্দীপনা উন্নত করতে এটি 10 থেকে 15 বার করুন।
+\n
+\n
+\n
+Some কিছু অনুশীলনে আপনার শ্রবণ দক্ষতা পরীক্ষা করার জন্য আপনাকে কিছু প্রশ্নের উত্তর শুনতে এবং উত্তর দিতে বলা হবে।
+\n
+\n
+\n
+Reading পড়ার প্যাসেজগুলি অডিও ফাইলগুলির সাথে থাকে (স্তর 1 - 4)। আপনার প্রয়োজন মতো শুনতে হবে এবং আপনার কথা বলা এবং পড়ার দক্ষতা উন্নত করতে প্যাসেজ রেকর্ড করা শুরু করুন।
+\n
+\n
+\n
+You আপনি ইউনিটটি শেষ করার পরে (ভিডিওগুলি) এ যান এবং ইউনিটের ভিডিওটি দেখুন। এটি আপনাকে পুরো ইউনিটটি বোঝার জন্য পরীক্ষা করতে সহায়তা করবে।
+\n
+\n
+\n
+The চারটি ইউনিট শেষ করার পরে (পরীক্ষাগুলি) যান এবং পরীক্ষা দিন।
+\n
+\n
+\n
+You যদি আপনি সন্তোষজনক ফলাফল পান তবে পরবর্তী স্তরে যান এবং একই পদক্ষেপগুলি অনুসরণ করুন।
+        \n
+\n
+\n
+ภาษาไทย  / Thai
+\n
+\n
+\n
+แอปพลิเคชั่นนี้พูดได้หลายภาษา หากคุณต้องการใช้แอปพลิเคชันในภาษาแม่ของคุณเองให้ไปที่ (การตั้งค่าโทรศัพท์) และเปลี่ยนภาษาเป็นภาษาแม่ของคุณ
+\n
+\n
+\n
+•หากคุณไม่ต้องการเริ่มต้นใหม่ตั้งแต่ต้น (ระดับ 1) ให้ไปที่ (การทดสอบตำแหน่ง) เพื่อทำการทดสอบ
+\n
+\n
+\n
+•คุณจะได้รับผลการทดสอบทางอีเมลภายใน 24 ชั่วโมง
+\n
+\n
+\n
+•ไปที่ (Easy English) และเลือก (กำหนดระดับของคุณ) เพื่อทราบว่าคุณอยู่ในระดับใดคุณจะพบตารางเพื่อช่วยในการเลือกระดับของคุณ
+\n
+\n
+\n
+•ในแต่ละระดับมีสี่ปุ่ม
+\n
+\n
+\n
+หนังสือ
+\n
+\n
+ไฟล์เสียง
+\n
+\n
+วิดีโอ
+\n
+\n
+การสอบ
+\n
+\n
+\n
+มีหนังสือสองเล่มสำหรับแต่ละระดับ หนังสือของนักเรียนและสมุดงาน
+\n
+\n
+\n
+•หนังสือแต่ละเล่มมีสี่หน่วย
+\n
+\n
+\n
+•เริ่มแต่ละหน่วย
+\n
+\n
+\n
+•เมื่อคุณเห็นสัญลักษณ์เสียงให้ไปที่ (ไฟล์เสียง) เล่นเสียงฟังและทำซ้ำ ทำเช่นนี้ 10 ถึง 15 ครั้งเพื่อปรับปรุงการออกเสียงและน้ำเสียงของคุณ
+\n
+\n
+\n
+•ในแบบฝึกหัดบางข้อคุณจะถูกขอให้ฟังและตอบคำถามเพื่อทดสอบทักษะการฟังของคุณ
+\n
+\n
+\n
+•ข้อความอ่านมาพร้อมกับไฟล์เสียง (ระดับ 1 - 4) คุณควรฟังให้มากเท่าที่คุณต้องการจากนั้นเริ่มบันทึกข้อความเพื่อพัฒนาทักษะการพูดและการอ่านของคุณ
+\n
+\n
+\n
+•เมื่อคุณจบหน่วยการเรียนรู้ไปที่ (วิดีโอ) และดูวิดีโอหน่วย จะช่วยให้คุณทดสอบความเข้าใจของคุณเกี่ยวกับหน่วยทั้งหมด
+\n
+\n
+\n
+•หลังจากเสร็จสิ้นทั้งสี่หน่วยแล้วให้ไปที่ (การสอบ) และทำแบบทดสอบ
+\n
+\n
+\n
+•หากคุณได้ผลลัพธ์ที่น่าพอใจไปที่ระดับถัดไปและทำตามขั้นตอนเดียวกัน
+\n
+\n
+\n
+"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
